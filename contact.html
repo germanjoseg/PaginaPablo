@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio Website</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+      </head>
+<body>
+  <main>
+    <header id="header">
+      <nav>
+        <div class="container">
+          <div class="links">
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="contact.html" class="active">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Contact me</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum odio incidunt doslorum officia dolorem eaque aprim?
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Toronto, Canadá</p>
+                </div>
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">lorem@ipsum.com</p>
+                </div>
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">11987845615</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form action="https://formsubmit.co/pablo.mielnic@gmail.com" method="POST" >
+                <div class="row">
+                  <input type="text" name="name" id="name" class="contact-input" placeholder="First Name" />
+                  <input type="text" name="name" id="name" class="contact-input" placeholder="Last Name" />
+                </div>
+                <div class="row">
+                  <input type="text" name="telefónico" id="telefónico" class="contact-input" placeholder="Phone" />
+                  <input type="email" name="email" id="email" class="contact-input" placeholder="Email"/>
+                </div>
+                <div class="row">
+                  <textarea name="texto" id="texto" class="contact-input textarea" placeholder="Message"
+                  ></textarea>
+                </div>
+                <button class="btn">Send</button>
+                <input type="hidden" name="_next" value="https://germanjoseg.github.io/PaginasWebs/">
+                <input type="hidden" name="_captcha" value="false">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
