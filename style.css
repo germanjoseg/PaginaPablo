@@ -7,7 +7,7 @@
   --light-one: #ffffff;
   --light-two: #f0f0f0;
   --light-three: #ffffff;
-  background-color: #f0f0f0;
+  background-color: #333;
 }
 
 /* Genral Styles */
@@ -300,7 +300,7 @@ nav .container {
   width: 2.1rem;
   height: 3px;
   border-radius: 3px;
-  background-color: var(--dark-one);
+  background-color: var(--main-color);
   transition: 0.5s;
 }
 
@@ -311,7 +311,7 @@ nav .container {
   width: 2.1rem;
   height: 3px;
   border-radius: 3px;
-  background-color: var(--dark-one);
+  background-color: var(--main-color);
   transition: 0.5s;
 }
 
