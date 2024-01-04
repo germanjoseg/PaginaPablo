@@ -13,6 +13,7 @@ function closeMenu() {
   document.body.classList.remove("stop-scrolling");
 }
 
+
 hamburger_menu.addEventListener("click", () => {
   if (!navbar.classList.contains("open")) {
     navbar.classList.add("open");
@@ -40,6 +41,7 @@ $(".grid").isotope({
   layoutMode: "fitRows",
   transitionDuration: "0.6s",
 });
+
 
 function countUp() {
   if (!checkScroll(records_wrap)) return;
